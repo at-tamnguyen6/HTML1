@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  width: 70%;
+  margin: auto;
+  background-color: #D8D8D8;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: white;
+}
+
+.grid-item-bottom {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+button {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
